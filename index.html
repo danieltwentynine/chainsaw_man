@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chainsaw Man</title>
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+
+    <style>
+
+        body{
+            background-color: #2b2b2b;
+            color:#fff;
+        }
+
+        .nav-item .nav-link {
+            color:#fff;
+        }
+
+        .nav-item .nav-link.active {
+            background-color: red;
+            color:#fff;
+        }
+
+        .nav-link {
+            text-align: center;
+        }
+
+    #header-principal {
+            position: sticky;
+            top:0;
+            left: 0;
+            z-index: 1000;
+            background-color: #880000;
+        }
+
+        #inicio {
+            height: 850px;
+            padding-top: 20px;
+        }
+
+        footer p {
+            text-align: center;
+            padding-top: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <header id="header-principal">
+        <div class="navbar navbar-expand-lg">
+            <div class="container">
+                <h1>Chainsaw Man</h1>
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav id="menu" class="collapse navbar-collapse justify-content-end">
+                    <ul class="nav nav-pills navbar-nav">
+                        <li class="nav-item">
+                            <a href="#inicio" class="nav-link active">Início</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#personagens" class="nav-link">Personagens</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div data-bs-spy="scroll" data-bs-target="header" class="container">
+        <section id="inicio">
+            <h1>Início</h1>
+            <div class="container">
+                <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="2000">
+                            <img src="https://images3.alphacoders.com/131/1319293.jpeg" class="d-block w-100">
+                            <div class="carousel-caption">
+                                O Trio - Denji, Power, Aki
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img src="https://images6.alphacoders.com/129/1299306.jpg" class="d-block w-100">
+                            <div class="carousel-caption">
+                                Denji transformado no Chainsaw
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img src="https://images4.alphacoders.com/133/1336102.png" class="d-block w-100">
+                            <div class="carousel-caption">
+                                Makima s2
+                            </div>
+                        </div>
+                    </div>
+                    <button data-bs-target="#carousel" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button data-bs-target="#carousel" data-bs-slide="next" class="carousel-control-next" type="button">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="personagens">
+            <h1>Personagens</h1>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-4 col-sm-6 col-xs-8">
+                        <article class="card text-bg-dark">
+                            <header class="card-header">
+                                Personagem Principal
+                            </header>
+                            <img src="https://i.pinimg.com/736x/44/4c/8d/444c8d4580a228de682255aa1c5b775e.jpg">
+                            <div class="card-body">
+                                <h4 class="card-title">
+                                    Denji
+                                </h4>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis iste fugiat a voluptatem aperiam doloribus tempore molestiae voluptatibus? At deleniti laboriosam pariatur quos iure sit cum esse quam est? Necessitatibus.
+                                </p>
+                                <a href="#" class="btn btn-danger">Conheça mais sobre o Denji</a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 col-xs-8">
+                        <article class="card text-bg-dark">
+                            <header class="card-header">
+                                Outros Importantes Personagens
+                            </header>
+                            <img src="https://i.pinimg.com/736x/4e/da/29/4eda2913422d3728c9ca565d40234233.jpg">
+                            <div class="card-body">
+                                <h4 class="card-title">
+                                    Aki Hayakawa
+                                </h4>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis iste fugiat a voluptatem aperiam doloribus tempore molestiae voluptatibus? At deleniti laboriosam pariatur quos iure sit cum esse quam est? Necessitatibus.
+                                </p>
+                                <a href="#" class="btn btn-danger">Conheça mais sobre o Aki</a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 col-xs-8">
+                        <article class="card text-bg-dark">
+                            <header class="card-header">
+                                Outros Importantes Personagens
+                            </header>
+                            <img src="https://pbs.twimg.com/media/Fx9tCvGWAAACErO.jpg">
+                            <div class="card-body">
+                                <h4 class="card-title">
+                                    Power
+                                </h4>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis iste fugiat a voluptatem aperiam doloribus tempore molestiae voluptatibus? At deleniti laboriosam pariatur quos iure sit cum esse quam est? Necessitatibus.
+                                </p>
+                                <a href="#" class="btn btn-danger">Conheça mais sobre a Power</a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>
+                <small>Website criado por: Daniel Cardoso - Jun/2024</small>
+            </p>
+        </div>
+    </footer>
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
